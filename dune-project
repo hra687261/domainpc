@@ -5,20 +5,18 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github hra687261/domainpc))
 
-(authors "Author Name <author@example.com>")
+(authors "<hra@ocamlpro.com>")
 
-(maintainers "Maintainer Name <maintainer@example.com>")
+(maintainers "<hra@ocamlpro.com>")
 
 (license LICENSE)
 
-(documentation https://url/to/documentation)
-
 (package
  (name domainpc)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "domainpc")
+ (description "Domain Per Core, ensure that each domain runs on its own physical core.")
  (depends ocaml processor)
  (tags
   ("add topics" "to describe" your project)))
